@@ -14,3 +14,7 @@ BMICalculator: This is a free lance project done off of the BMI Project to promp
 BMI Pro Trial: This is a project in which I experimented with the do while and for loops in order to produce an array of info for a second BMI project. Both do while and for loops work just the same, and either can be used for the final product.
 
 BMI02WilliamSuy: This is the second BMI project in which combines the standard and the pro version in the first prompt of the code. It is a mashup of the BMIWilliamSuy and BMI Pro Trial in one java file.
+
+BMI03WilliamSuy: This is the third BMI project which separates the standard and pro versions into methods and calling it through an if statement.
+
+BMIMethods: This is a compilation of the BMI program into separate method components of setting height, setting weight, setting BMI, setting results, and a repeat loop of the program if the user chooses so.
