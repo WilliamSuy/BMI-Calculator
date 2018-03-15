@@ -55,7 +55,7 @@ public class BMIPROTrial {
             System.out.println(condition);
         }
         */
-        
+        /*
         //Same thing as the for loop, but in a do while loop
         weightLow = weightLowInput;
         
@@ -79,7 +79,31 @@ public class BMIPROTrial {
             
             weightLow += 5;
         } while (weightLow < weightHigh);
+        */
         
+        //Same thing as the past loops, but in a while loop
+        weightLow = weightLowInput;
+        
+        while (weightLow < weight High) {
+            BMI = (703.0F * weightLow) / (height * height);
+            
+            
+            String condition = null;
+        
+            if (BMI <= 24.0F) {
+                condition = "not overweight";
+            }
+            else if (BMI > 24.0F) {
+                condition = "overweight";
+            }
+            
+            System.out.print(weightLow + "\t\t");
+            System.out.format("%.4f", BMI);
+            System.out.print("\t\t");
+            System.out.println(condition);
+            
+            weightLow += 5;
+        } 
         
     }
     
